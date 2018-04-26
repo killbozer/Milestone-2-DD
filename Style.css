@@ -46,3 +46,15 @@ nav li {
   display: none;
   position: absolute;
 }
+
+.show {
+  display: block;
+}
+
+#greenlight:hover {
+  background-color: #6ce348;
+}
+
+#stopcode:hover {
+  background-color: red;
+}
