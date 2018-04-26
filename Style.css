@@ -44,7 +44,7 @@ nav li {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  background-color: #5e5d5d;
 }
 
 .show {
