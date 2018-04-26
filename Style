@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+h1 {
+  margin: 15px;
+  padding: 15px;
+}
+
 body {
   font: 20px 'verdana', sans-serif;
   color: #555;
