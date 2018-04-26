@@ -41,3 +41,8 @@ nav li {
   width: 28%;
   border-right: 1px solid #ddd;
 }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
