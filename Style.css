@@ -51,6 +51,7 @@ nav li {
   display: block;
 }
 
+/*REMOVE THESE WHEN WORKING ON FULL SITE*/
 #greenlight:hover {
   background-color: #6ce348;
 }
