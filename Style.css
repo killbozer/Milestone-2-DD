@@ -16,10 +16,11 @@ body {
 
 ul {
   list-style: none;
-  max-width: 1100px;
+  max-width: 300px;
 }
 
 nav {
+  width: 100%;
   background-color: #383737;
 }
 
@@ -38,7 +39,6 @@ ul a:hover {
 }
 
 nav li {
-  width: 28%;
   border-right: 1px solid #ddd;
 }
 
@@ -50,6 +50,8 @@ nav li {
 .show {
   display: block;
 }
+
+/*Use position: absolute to place stuff in same section of header*/
 
 /*REMOVE THESE WHEN WORKING ON FULL SITE*/
 #greenlight:hover {
