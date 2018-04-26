@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="Style.css">            <!-- CHANGE DIRECTORY OF CSS -->
   <title>Double Digits</title>
 </head>
 <body>
   <nav>
     <ul>
       <li class="option">
-        <a class="label" href="Index.html">Home</a>
+        <a class="label" onclick="toggleMenu(locationsLabel)" href="#">Home</a>
         <div class="dropdown-content" id="homeLabel">
           <a href="#">Darwin</a>
           <a href="#">Palmerston</a>
@@ -19,7 +19,7 @@
       </li>
 
       <li class="option">
-        <a class="label" href="Important_Information.html">Important Information</a>
+        <a class="label" onclick="toggleMenu(locationsLabel)" href="Important_Information.html">Important Information</a>
         <div class="dropdown-content" id="importantinformationLabel">
           <a href="#">Darwin</a>
           <a href="#">Palmerston</a>
@@ -28,7 +28,7 @@
       </li>
 
       <li class="option">
-        <a class="label" href="Student_Events.html">Student Events</a>
+        <a class="label" onclick="toggleMenu(locationsLabel)" href="Student_Events.html">Student Events</a>
         <div class="dropdown-content" id="studenteventsLabel">
           <a href="#">Darwin</a>
           <a href="#">Palmerston</a>
@@ -37,5 +37,7 @@
       </li>
     </ul>
   </nav>
+
+  <script src="main.js"></script>               <!-- CHANGE DIRECTORY OF SOURCE -->
 </body>
 </html>
